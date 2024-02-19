@@ -1,0 +1,18 @@
+.main {
+    margin-top: 20px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Make card use full height to align items at the bottom */
+  }
+  
+  .cardDescription {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Number of lines you want to display */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 60px; /* Adjust height based on line height and line clamp */
+  }
